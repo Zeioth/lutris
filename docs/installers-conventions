@@ -1,0 +1,64 @@
+==================
+Styling conventions 
+==================
+
+Before you edit your first script
+=======================
+Ask yourself if it's really necesary to do it:
+
+Good reasons
+----------------------------------
+* The script is unmaintained and/or it's not working anymore, 
+  so it needs to be rewritten.
+* The installer haven't been updated in the last week, 
+  and there are some new patches that can improve the game's performance.
+* Periodic wine and DXVK updates: If you actually tested them.
+
+Bad reasons
+---------------------------------- 
+
+* A cool feature that is only gonna work for this installer. 
+  IE: "I wan't to make possible to choose if DXVK_HUD is vissible in this game while you install it". 
+  Even if it looks like a good idea on first instance, newbye users might not care about it, 
+  and advanced users already know how to do it.
+
+Proceed with caution
+----------------------------------
+
+* "The script is already maintained, but I'd like to add something that I personally like": 
+Be aware that even if you are personally interested on x feature, maybe it's not a reason good enough to add extra complexity to the script.
+
+A moderator didn't accepted my script
+----------------------------------
+
+* They don't hate you. Mods love contributors.
+* By following the rules described in this document, you are maximizing the chances to be accepted.
+* Please, don't make 100 editions just because your first edition wasn't accepted. 
+  Maybe the game you are trying to contribute already have a huge number of contributors. 
+  If you are really commited to help others, try to contribute to games which are not so popular, or unnatended games.
+  
+How many edits are too much?
+----------------------------------
+Ideally you should submit ONE edit to moderation per game per day as maximum (unless you need to submit some hotfix). You can contribute to as many games as you want. 
+
+How to properly edit an installer
+=======================
+
+Description
+----------------------------------
+Ideally, this paragraph should be empty. Use it only to give short and useful information. Example [1](https://i.imgur.com/A6mL8hI.png).
+
+
+Technical notes
+----------------------------------
+If the game need some kind of manual tweak, you can speak about it here. Examples: [1](https://i.imgur.com/zaTzFHQ.png), [2](https://i.imgur.com/0f5TYdo.png).
+
+Reason
+----------------------------------
+This paragraph is meant to help Lutris moderators to understand what you are trying to do. Example [1](https://i.imgur.com/F0tmrhy.png).
+This is an example of a good use of the field 'reason'.
+
+Tips:
+https://i.imgur.com/F0tmrhy.png
+* Try to avoid confusing, or redundant info.
+* If you are editing something really obvious, it's better to leave this field empty.
